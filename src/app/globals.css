@@ -1,11 +1,12 @@
 @import "tailwindcss";
 
-*{
+* {
   font-family: "Neue Montreal", sans-serif;
 }
 
 
 @theme {
+
   
   --color-border: #908893;
    --color-yellow: #E58E1A;
@@ -51,6 +52,15 @@
   --leading-126: 126%;
 
 
+ 
+}
+
+
+.herobg {
+  background-image: url(../../public/assets/webg/herobg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
@@ -61,6 +71,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Neue Montreal";
   src: url("../../public/assets/font/montreal/NeueMontreal-Regular.otf") format("opentype");
@@ -68,6 +79,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Neue Montreal";
   src: url("../../public/assets/font/montreal/NeueMontreal-Medium.otf") format("opentype");
@@ -75,6 +87,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Neue Montreal";
   src: url("../../public/assets/font/montreal/NeueMontreal-Bold.otf") format("opentype");
@@ -82,6 +95,3 @@
   font-style: normal;
   font-display: swap;
 }
-
-
-
