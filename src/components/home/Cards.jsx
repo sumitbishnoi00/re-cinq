@@ -17,14 +17,14 @@ const Cards = () => {
                         <Icons icon={"cardbgstar"} className="w-full max-w-[1147.05px] h-auto" />
                     </div>
 
-                    <div className="absolute sm:hidden top-0 left-0 translate-x-[-65%] pointer-events-none">
+                    <div className="absolute sm:hidden -top-8.5 left-1.5 translate-x-[-65%] pointer-events-none">
                         <Icons
                             icon={"cardbgleft"}
                             className="w-[306.34px] h-auto"
                         />
                     </div>
 
-                    <div className="absolute sm:hidden top-0 right-0 translate-x-[65%] pointer-events-none">
+                    <div className="absolute sm:hidden -top-8.5 right-0.5 translate-x-[65%] pointer-events-none">
                         <Icons
                             icon={"cardbgright"}
                             className="w-[306.34px] h-auto scale-x-[-1]"

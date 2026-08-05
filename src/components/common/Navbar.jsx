@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
     <div className='w-full px-4 fixed py-5.5 z-50'>
 
-      <div className=" max-w-[1284.1px] border lg:border-border backdrop-blur-3xl  flex flex-row justify-between items-center p-1.5 bg-white/6 rounded-[90px] w-full mx-auto ">
+      <div className=" max-w-[1284.1px] sm:border lg:border-border sm:backdrop-blur-3xl  flex flex-row justify-between items-center p-1.5 sm:bg-white/6 rounded-[90px] w-full mx-auto ">
         <div className='lg:ml-3.5'>
           <Link href="/">
             <Icons icon={'navlogo'} />
