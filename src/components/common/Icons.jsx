@@ -3,6 +3,38 @@ import React from 'react'
 const Icons = ({ icon, props }) => {
 
   const Icons = {
+
+    row:(
+       <svg
+                width="1"
+                height="21"
+                viewBox="0 0 1 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <line
+                  x1="0.5"
+                  y1="21"
+                  x2="0.499999"
+                  y2="2.18557e-08"
+                  stroke="url(#paint0_linear_258_427)"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_258_427"
+                    x1="1.5"
+                    y1="-2.18557e-08"
+                    x2="1.5"
+                    y2="21"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="white" stop-opacity="0" />
+                    <stop offset="0.5" stop-color="white" />
+                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                  </linearGradient>
+                </defs>
+              </svg>
+    ),
     navlogo: (
       <svg width="104" height="28" viewBox="0 0 106 28" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clipPath="url(#clip0_200_91)">
