@@ -6,8 +6,8 @@ import Icons from "../common/Icons";
 
 const Writers = () => {
   return (
-    <section className="bg-black px-4 lg:pt-24 md:pt-20  pt-15 min-[768px]:pt-[175.27px] -mb-20 -mt-px">
-      <div className="max-w-167 mx-auto flex flex-col justify-center items-center text-center">
+    <section className="bg-black px-4 lg:pt-24 md:pt-20  pt-15 min-[768px]:pt-[175.27px] -mb-20 -mt-px ">
+      <div className="max-w-167 mx-auto flex flex-col justify-center items-center text-center z-10 relative">
         <div className="flex  gap-7 text-center lg:mb-[6.65px] md:mb-4 sm:mb-5 mb-[27.65px]">
           <div>
             <Image

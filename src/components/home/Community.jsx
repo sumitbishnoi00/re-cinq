@@ -20,7 +20,7 @@ const Community = () => {
             <div className="flex flex-col sm:px-0 px-4  lg:text-start lg:items-start max-lg:mt-10">
               <div className=" sm:max-w-126 max-w-97.25 w-full ">
 
-                <button className="font-normal max-sm:max-w-77.5 w-full  text-[14px] text-left sm:py-1.5 py-2 sm:mb-3.25 mb-3 sm:px-4 px-3 bg-white/6 border-border border  text-white lg:rounded-[114.9px] md:rounded-[80px] sm:rounded-[40px] rounded-xl cursor-pointer sm:leading-[129%] leading-[123%]">
+                <button className="font-normal max-w-max max-sm:max-w-77.5 w-full  text-[14px] text-left sm:py-1.5 py-2 sm:mb-3.25 mb-3 sm:px-4 px-3 bg-white/6 border-border border  text-white lg:rounded-[114.9px] md:rounded-[80px] sm:rounded-[40px] rounded-xl cursor-pointer sm:leading-[129%] leading-[123%]">
                   From Cloud Native to AI Native: Catching the next wave of
                   innovation
                 </button>
