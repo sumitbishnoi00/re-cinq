@@ -2,17 +2,41 @@ import Image from 'next/image'
 import React from 'react'
 import { CRAD_DATA } from '@/utils/helper'
 import Icons from '../common/Icons'
+import Heading from '../common/Heading'
+import Button from '../common/Button'
 
 
 const Cards = () => {
     return (
-        <div className='bg-black -mt-1 px-4 pb-15 pt-[150.6px]'>
-            <div className='max-w-320.25 mx-auto w-full flex flex-col items-center justify-center'>
-                <div className="min-h-151.25 w-full flex-col flex items-center justify-center">
-                    <button className='px-4 py-1.5 font-normal text-sm leading-100'>Waves of Innovation</button>
-                    <h2 className='max-w-150 text-white mt-3.25 text-40 md:text-50 text-center leading-130 '>Explore the Waves of Innovation <span className="bg-[linear-gradient(90deg,#FFFFFF_34%,#C5A5E6_100%)] bg-clip-text text-transparent">Ecosystem</span></h2>
+        <div className='bg-black -mt-1 px-4 pt-[150.6px]'>
+            <div className='max-w-321 mx-auto w-full flex flex-col items-center justify-center'>
+
+                <div className="relative max-w-[1147.05px] w-full flex-col flex items-center justify-center overflow-hidden">
+
+                    <div className="absolute max-sm:hidden inset-0 z-0 pointer-events-none flex justify-center items-center">
+                        <Icons icon={"cardbgstar"} className="w-full max-w-[1147.05px] h-auto" />
+                    </div>
+
+                    <div className="absolute sm:hidden top-0 left-0 translate-x-[-65%] pointer-events-none">
+                        <Icons
+                            icon={"cardbgleft"}
+                            className="w-[306.34px] h-auto"
+                        />
+                    </div>
+
+                    <div className="absolute sm:hidden top-0 right-0 translate-x-[65%] pointer-events-none">
+                        <Icons
+                            icon={"cardbgright"}
+                            className="w-[306.34px] h-auto scale-x-[-1]"
+                        />
+                    </div>
+
+                    <div className="relative max-w-151.25 w-full flex-col flex items-center justify-center">
+                        <button className='px-[15.5px] py-[6.5px] font-normal text-sm leading-100 text-white border border-border rounded-[114.9px] bg-transparent mb-3.25'>Waves of Innovation</button>
+                        <Heading vari={"sec"} className='text-center'>Explore the Waves of Innovation Ecosystem</Heading>
+                    </div>
                 </div>
-                <div className=' md:mt-15 mt-10 flex flex-row flex-wrap gap-5 justify-center'>
+                <div className=' md:mt-15 mt-10 flex flex-row flex-wrap gap-x-5.25 gap-y-5 justify-center'>
                     {CRAD_DATA.map((item, index) => {
                         return (
                             <div key={index}>
@@ -28,8 +52,8 @@ const Cards = () => {
                                         <div>
                                             <p className={`${index === 0 ? "mt-5" : "mt-9.5"} ml-3 text-white text-2xl md:text-28 leading-120 tracking-[-2%]`}>{item.title}</p>
                                             <p className='mt-4 ml-3 text-white/70 max-w-[350.1px] text-sm md:text-base leading-144 font-normal'>{item.description}</p>
-                                            <Button variant="outline" className='w-full py-3.5 max-[767.1px]:max-w-[341.1px] mt-6.25'>
-                                                {item.cta}
+                                            <Button vari={"dan"} className='w-full py-3.5 max-[767.1px]:max-w-[341.1px] mt-6.25'>
+                                                {item.btn}
                                             </Button>
                                         </div>
                                     </div>
@@ -39,7 +63,7 @@ const Cards = () => {
                     })}
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 

@@ -54,35 +54,44 @@ const Navbar = () => {
               {NAV_DATA.map((item, index) => (
                 <div
                   key={index} className={`${index === 1 ? "relative flex items-center" : ""}`}>
-                  <div className="flex items-center gap-2.5">
-                    <Link
-                      href="/"
-                      onClick={() => {
-                        setServicesOpen(false);
+                  <div
+                    className="flex items-center gap-2.5 cursor-pointer"
+                    onClick={() => {
+                      if (index === 1) {
+                        setServicesOpen((prev) => !prev);
                         setInnovationOpen(false);
-                      }}
-                    >
-                      <p className="text-white hover:text-purple-400 duration-300 text-base leading-140 cursor-pointer">
+                      }
+                    }}
+                  >
+                    {index === 1 ? (
+                      <p className="text-white hover:text-purple-400 duration-300 text-base leading-140">
                         {item}
                       </p>
-                    </Link>
-
-                    {index === 1 && (
-                      <button
-                        type="button"
+                    ) : (
+                      <Link
+                        href="/"
                         onClick={() => {
-                          setServicesOpen(!servicesOpen);
+                          setServicesOpen(false);
                           setInnovationOpen(false);
                         }}
-                        className={`duration-500 cursor-pointer ${servicesOpen ? "rotate-180" : ""
+                      >
+                        <p className="text-white hover:text-purple-400 duration-300 text-base leading-140">
+                          {item}
+                        </p>
+                      </Link>
+                    )}
+
+                    {index === 1 && (
+                      <span
+                        className={`duration-500 ${servicesOpen ? "rotate-180" : ""
                           }`}
                       >
                         <Icons icon="downarrow" />
-                      </button>
+                      </span>
                     )}
                   </div>
                   {index === 1 && (
-                    <div className={`absolute backdrop-blur-xl gap-3  left-0 z-20 top-full -ml-25.5 pt-3 px-5.5 h-46 w-51.75 flex-col bg-[url('/assets/images/png/navbg.png')] bg-cover bg-center bg-no-repeat ${servicesOpen ? "flex" : "hidden"}`}>
+                    <div className={`absolute backdrop-blur-xl gap-3  left-0 z-20 top-full -ml-25.5 pt-3 px-5.5 h-46 w-51.75 flex-col bg-[url('/assets/webg/navbg.webp')] bg-cover bg-center bg-no-repeat ${servicesOpen ? "flex" : "hidden"}`}>
                       {SERVICES_DROPDOWN.map((dropdownItem, i) => (
                         <div key={i} className={`${i === 3 ? "" : "border-b border-dark-grey"} pb-2`}>
                           <Link
@@ -101,29 +110,28 @@ const Navbar = () => {
               <div className="mr-3 min-[1100px]:mr-7.5">
                 <Icons icon="line" />
               </div>
-              <div className="flex items-center">
-                <Link href="/" className="mr-2.5">
-                  <p className="text-white hover:text-purple-400 text-base leading-140 duration-300 cursor-pointer">
-                    Waves of{" "}
-                    <span className="bg-[linear-gradient(90deg,#FFFFFF_44%,#A96DDE_100%)] bg-clip-text text-transparent">
-                      innovation
-                    </span>
-                  </p>
-                </Link>
+              <div
+                className="flex items-center gap-2.5 cursor-pointer"
+                onClick={() => {
+                  setInnovationOpen((prev) => !prev);
+                  setServicesOpen(false);
+                }}
+              >
+                <p className="text-white hover:text-purple-400 text-base leading-140 duration-300">
+                  Waves of{" "}
+                  <span className="bg-[linear-gradient(90deg,#FFFFFF_44%,#A96DDE_100%)] bg-clip-text text-transparent">
+                    innovation
+                  </span>
+                </p>
 
-                <button
-                  type="button"
-                  onClick={() => {
-                    setInnovationOpen(!innovationOpen);
-                    setServicesOpen(false);
-                  }}
-                  className={`mt-1 duration-300 cursor-pointer ${innovationOpen ? "rotate-180" : ""
+                <span
+                  className={`duration-300 ${innovationOpen ? "rotate-180" : ""
                     }`}
                 >
                   <Icons icon="downarrow" />
-                </button>
+                </span>
               </div>
-              <div className={`absolute z-60 left-0 -ml-8  duration-500 px-5.5 flex-col top-full h-57 pt-2 bg-[url('/assets/images/png/navbg.png')] backdrop-blur-3xl bg-cover bg-no-repeat bg-center text-white w-64 ${innovationOpen ? "flex" : "hidden"}`}>
+              <div className={`absolute z-60 left-0 -ml-8  duration-500 px-5.5 flex-col top-full h-57 pt-2 bg-[url('/assets/webg/navbg.webp')] backdrop-blur-3xl bg-cover bg-no-repeat bg-center text-white w-64 ${innovationOpen ? "flex" : "hidden"}`}>
                 {INOVARTION_DROPDOWN.map((item, index) => {
                   return (
                     <div key={index}
@@ -140,8 +148,10 @@ const Navbar = () => {
           </div>
 
         </div>
-        <div className='rounded-[60px] bg-black/40 border border-border w-fit p-[0.5px] max-lg:hidden'>
-          <button className='py-2 px-4.75 w-full font-medium text-base leading-100 text-white'>Take Our Free Online AI Assessment.</button>
+        <div className=' group relative rounded-[60px] bg-black/40 border border-border w-fit p-[0.5px] max-lg:hidden transition-all duration-500 overflow-hidden'>
+          <span className="absolute inset-0 rounded-[60px] bg-white/10 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
+          <span className="absolute -left-20 top-0 h-full w-20 rotate-12 bg-white/20 blur-md transition-all duration-700 group-hover:left-[120%]"></span>
+          <button className=' relative z-10 rounded-[60px] py-2 px-4.75 w-full font-medium text-base leading-100 text-white cursor-pointer transition-all duration-300 group-hover:shadow-[inset_0_0_18px_rgba(255,255,255,0.18)]'>Take Our Free Online AI Assessment.</button>
         </div>
 
 
@@ -226,7 +236,7 @@ const Navbar = () => {
                           onClick={closeMobile}
                           className='text-light-gray hover:text-white flex flex-row items-center gap-2 text-sm cursor-pointer'
                         >
-                          <div className='w-2 h-px bg-white/20 '></div> {dropdownItem}
+                          <span className='w-2 h-px bg-white/20 '></span> {dropdownItem}
                         </p>
                       ))}
                     </div>
@@ -260,7 +270,7 @@ const Navbar = () => {
                     onClick={closeMobile}
                     className='text-light-gray flex flex-row items-center gap-2 hover:text-white text-sm cursor-pointer'
                   >
-                    <div className='w-2 h-px bg-white/20 '></div> {item}
+                    <span className='w-2 h-px bg-white/20 '></span> {item}
                   </p>
                 ))}
               </div>
@@ -281,7 +291,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Navbar

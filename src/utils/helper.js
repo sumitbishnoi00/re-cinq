@@ -54,3 +54,67 @@ export const CRAD_DATA = [
         "featured": false
     }
 ];
+
+export const LOGOS_DATA = [
+
+  {
+    src: "/assets/webg/larsen.webp",
+    imgWidth: 218,
+    imgHeight: 78,
+  },
+  {
+    src: "/assets/webg/seabo.webp",
+    imgWidth: 78,
+    imgHeight: 78,
+  },
+  {
+    src: "/assets/webg/vandebron.webp",
+    imgWidth: 135,
+    imgHeight: 73.81,
+  },
+  {
+    src: "/assets/webg/skanda_4x.webp",
+    imgWidth: 200,
+    imgHeight: 52.73,
+  },
+  {
+    src: "/assets/webg/fonix.webp",
+    imgWidth: 200,
+    imgHeight: 57.7,
+  },
+  {
+    src: "/assets/webg/odevo.webp",
+    imgWidth: 200,
+    imgHeight: 48.53,
+  },
+  
+  
+  
+
+];
+
+
+export const FOOTER_LINKS = [
+    {
+        title: "Quick Links",
+        links: [
+            "Home",
+            "Services",
+            "Our Work",
+            "About",
+            "Blog",
+            "Contact",
+        ],
+    },
+    {
+        title: "Waves of innovation",
+        links: [
+            "Hub",
+            "Monthly Report",
+            "Book",
+            "Patterns",
+            "Assessment",
+            "Podcast",
+        ],
+    },
+];

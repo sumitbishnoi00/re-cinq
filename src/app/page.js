@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-black">
+    <>
       <Hero />
       <Future />
       <Cards />
@@ -17,6 +17,6 @@ export default function Home() {
       <Community />
       <Writers />
       <Navigate />
-    </div>
+    </>
   );
 }
