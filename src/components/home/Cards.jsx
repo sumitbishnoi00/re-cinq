@@ -8,7 +8,7 @@ import Button from '../common/Button'
 
 const Cards = () => {
     return (
-        <div className='bg-black -mt-1 px-4 pt-[150.6px]'>
+        <div className='bg-black -mt-1 px-4 lg:pt-[150.6px] md:pt-20 sm:pt-15 pt-25 '>
             <div className='max-w-321 mx-auto w-full flex flex-col items-center justify-center'>
 
                 <div className="relative max-w-[1147.05px] w-full flex-col flex items-center justify-center overflow-hidden">
