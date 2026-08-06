@@ -9,16 +9,16 @@ const Marquee = () => {
       <div className='max-w-361.75 mx-auto w-full flex items-center overflow-hidden flex-col pt-6 pb-2.25'>
         <h2 className='font-normal  text-2xl leading-121 tracking-[-2%] text-center text-white/80 mb-9 sm:mb-9.5 md:mb-10'>Trusted by hundreds of technology <br className='sm:hidden' /> leaders from companies like</h2>
         <div className='w-full overflow-hidden'>
-          <div className=' absolute -mt-40 left-0 h-40 z-20'>
+          <div className=' absolute -mt-40 left-0 h-40 z-20 pointer-events-none'>
             <Icons icon={'elipsethree'} />
           </div>
-          <div className=' sm:flex hidden absolute -mt-40 left-0 h-40 z-20'>
+          <div className=' sm:flex hidden absolute -mt-40 left-0 h-40 z-20 pointer-events-none'>
             <Icons icon={'elipsethree'} />
           </div>
-          <div className=' absolute -mt-40 right-0 h-40 z-20'>
+          <div className=' absolute -mt-40 right-0 h-40 z-20 pointer-events-none'>
             <Icons icon={'elipsefour'} />
           </div>
-          <div className='sm:flex hidden  absolute -mt-40 right-0 h-40 z-20'>
+          <div className='sm:flex hidden  absolute -mt-40 right-0 h-40 z-20 pointer-events-none'>
             <Icons icon={'elipsefour'} />
           </div>
           {/* <div className=' absolute max-w-360 w-full h-20 sm:h-50 z-20 bg-black/35'>
