@@ -70,7 +70,7 @@ const Footer = () => {
     };
     return (
 
-        <section className='px-3 pt-15 sm:pt-17.5 md:pt-20 bg-black -mt-px'>
+        <section className='px-4 pt-15 sm:pt-17.5 md:pt-20 bg-black -mt-px'>
             <div className='max-w-7xl w-full mx-auto flex flex-col items-center'>
                 <div className='flex min-[743px]:gap-6 max-lg:flex-col max-[956px]:pr-20 max-[850px]:pr-0 flex-row w-full justify-between'>
                     <div className='max-w-85.5 w-full flex flex-col gap-6.25'>
