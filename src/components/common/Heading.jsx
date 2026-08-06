@@ -2,8 +2,8 @@ import React from 'react'
 
 const Heading = ({children, vari, className = "" }) => {
     const variants = {
-        pri: "sm:leading-120 leading-[113%]",
-        sec: "sm:leading-130 ",
+        pri: "sm:leading-120 leading-113",
+        sec: "sm:leading-130 leading-113",
         
         
     }

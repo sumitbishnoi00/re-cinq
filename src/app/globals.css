@@ -35,6 +35,7 @@
 
 
   --leading-100: 100%;
+  --leading-113: 113%;
   --leading-135: 135%;
   --leading-145: 145%;
   --leading-140: 140%;
@@ -50,6 +51,7 @@
   --leading-141: 141%;
   --leading-141: 141%;
   --leading-126: 126%;
+  --leading-172: 172%;
 
 
 }
@@ -103,7 +105,6 @@
 .marquee-track {
   display: flex;
   align-items: center;
-  gap: 100px;
   width: max-content;
 
   animation: marquee 30s linear infinite;

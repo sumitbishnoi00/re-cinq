@@ -9,7 +9,7 @@ const Para = ({children, vari, className = "" }) => {
     }
   return (
 
-    <p className={`font-normal md:text-base sm:text-15 text-[14px] sm:leading-156 leading-[172%]  ${variants[vari]} ${className} `}> {children} </p>
+    <p className={`font-normal md:text-base sm:text-15 text-sm sm:leading-156 leading-172  ${variants[vari]} ${className} `}> {children} </p>
 
   )
 }
