@@ -17,6 +17,8 @@ const Button = ({ children, vari, className = "" }) => {
       <span
         className={`absolute inset-0 transition-opacity duration-500 ${vari === "pri" || vari === "not"
           ? "bg-[linear-gradient(91.05deg,#8E2EE0_7.21%,#AF7EF4_86.3%)] group-hover:opacity-0"
+          : vari === "dan"
+          ? "bg-white/0 group-hover:opacity-0"
           : "bg-white/6 group-hover:opacity-0"
           }`}
       ></span>
