@@ -111,7 +111,7 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="max-w-89.5 w-full flex min-[758px]:mt-0 mt-10 flex-col text-start">
+                        <div className="max-w-89.5 w-full flex min-[758px]:mt-0 mt-4 sm:mt-10 flex-col text-start">
                             <h2 className="font-medium text-xl leading-120 text-white mb-5">
                                 Newsletter
                             </h2>
