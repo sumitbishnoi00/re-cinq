@@ -8,7 +8,7 @@ import Icons from "../common/Icons";
 const Navigate = () => {
   return (
     <div>
-      <section className=" bg-black max-[440px]:mt-0 -mt-5">
+      <section className=" bg-black max-[440px]:mt-0 -mt-5 overflow-hidden">
         <div className=" relative bg-[url('/assets/webg/navigate.webp')] px-4 bg-cover bg-center rounded-b-2xl md:min-h-161 sm:min-h-141 min-h-188.25  max-w-7xl mx-auto md:pt-71 sm:pt-50 pt-84.75">
 
           <div className="absolute max-sm:hidden inset-0 left-26 z-0 pointer-events-none flex justify-center items-center">
