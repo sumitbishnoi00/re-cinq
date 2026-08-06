@@ -1765,6 +1765,109 @@ const Icons = ({ icon, props, className }) => {
 
     ),
 
+    communitybgstar: (
+      <svg width="478" height="168" viewBox="0 0 478 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g className='star blink' filter="url(#filter0_d_200_503)">
+          <path d="M11.1714 20.0958L15.8473 21.1285L11.0963 20.5218L10.0413 25.1948L10.6702 20.4467L5.9992 19.392L10.7453 20.0206L11.7777 15.3467L11.1714 20.0958Z" fill="white" />
+        </g>
+        <g className='star move-left' filter="url(#filter1_d_200_503)">
+          <path d="M204.449 8.84918L207.256 9.46909L204.404 9.105L203.772 11.9089L204.149 9.06006L201.348 8.4272L204.195 8.80424L204.814 6.00006L204.449 8.84918Z" fill="white" />
+        </g>
+        <g className='star move-right' filter="url(#filter2_d_200_503)">
+          <path d="M134.012 84.9869L136.819 85.6068L133.967 85.2427L133.335 88.0466L133.712 85.1978L130.91 84.5649L133.757 84.9419L134.376 82.1378L134.012 84.9869Z" fill="white" />
+        </g>
+        <g className='star blink' filter="url(#filter3_d_200_503)">
+          <path d="M418.081 158.85L420.82 157.985L418.169 159.094L419.023 161.839L417.925 159.183L415.182 160.037L417.837 158.939L416.971 156.201L418.081 158.85Z" fill="white" />
+        </g>
+        <g className='star move-left' filter="url(#filter4_d_200_503)">
+          <path d="M324.331 40.6943L329.115 40.8994L324.331 41.127L324.104 45.9121L323.898 41.127L319.115 40.8994L323.898 40.6943L324.104 35.9121L324.331 40.6943Z" fill="white" />
+        </g>
+        <g className='star move-right' filter="url(#filter5_d_200_503)">
+          <path d="M264.695 96.7861L280.005 97.4414L264.695 98.1709L263.966 113.48L263.311 98.1709L248.004 97.4414L263.311 96.7861L263.966 81.4805L264.695 96.7861Z" fill="url(#paint0_radial_200_503)" />
+        </g>
+        <g className='star blink' filter="url(#filter6_d_200_503)">
+          <path d="M463.864 70.797L471.344 72.4481L463.743 71.4788L462.054 78.9534L463.061 71.3586L455.587 69.6698L463.182 70.6768L464.833 63.1965L463.864 70.797Z" fill="white" />
+        </g>
+        <defs>
+          <filter id="filter0_d_200_503" x="0" y="9.34668" width="21.8477" height="21.8477" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+            <feOffset />
+            <feGaussianBlur stdDeviation="3" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_200_503" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_200_503" result="shape" />
+          </filter>
+          <filter id="filter1_d_200_503" x="195.348" y="0" width="17.9082" height="17.9092" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+            <feOffset />
+            <feGaussianBlur stdDeviation="3" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_200_503" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_200_503" result="shape" />
+          </filter>
+          <filter id="filter2_d_200_503" x="124.91" y="76.1377" width="17.9082" height="17.9092" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+            <feOffset />
+            <feGaussianBlur stdDeviation="3" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_200_503" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_200_503" result="shape" />
+          </filter>
+          <filter id="filter3_d_200_503" x="409.182" y="150.201" width="17.6387" height="17.6377" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+            <feOffset />
+            <feGaussianBlur stdDeviation="3" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_200_503" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_200_503" result="shape" />
+          </filter>
+          <filter id="filter4_d_200_503" x="313.115" y="29.9121" width="22" height="22" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+            <feOffset />
+            <feGaussianBlur stdDeviation="3" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_200_503" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_200_503" result="shape" />
+          </filter>
+          <filter id="filter5_d_200_503" x="242.004" y="75.4805" width="44" height="44" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+            <feOffset />
+            <feGaussianBlur stdDeviation="3" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix type="matrix" values="0 0 0 0 0.556863 0 0 0 0 0.180392 0 0 0 0 0.878431 0 0 0 1 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_200_503" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_200_503" result="shape" />
+          </filter>
+          <filter id="filter6_d_200_503" x="449.586" y="57.1963" width="27.7578" height="27.7568" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+            <feOffset />
+            <feGaussianBlur stdDeviation="3" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_200_503" />
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_200_503" result="shape" />
+          </filter>
+          <radialGradient id="paint0_radial_200_503" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(264.004 97.4805) rotate(90) scale(16 16.0004)">
+            <stop stop-color="white" />
+            <stop offset="1" stop-color="#8E2EE0" />
+          </radialGradient>
+        </defs>
+      </svg>
+
+    ),
+
 
   }
   return Icons[icon] || null
