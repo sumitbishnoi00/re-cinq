@@ -84,7 +84,7 @@ const Footer = () => {
                             />
                         </Link>
 
-                        <p className='font-normal text-sm sm:text-base leading-156 text-cool-gray'>re:cinq is a tech consultancy helping medium and large organizations transition from Cloud Native to AI Native by building scalable AI platforms, improving software development with AI, and guiding teams through technical and organizational transformation.</p>
+                        <p className='font-normal text-sm sm:text-base leading-172 sm:leading-156 text-cool-gray'>re:cinq is a tech consultancy helping medium and large organizations transition from Cloud Native to AI Native by building scalable AI platforms, improving software development with AI, and guiding teams through technical and organizational transformation.</p>
                     </div>
 
                     <div className="max-w-209 w-full flex min-[1060px]:gap-25.5 justify-between gap-8 flex-col sm:flex-row ">
@@ -136,7 +136,7 @@ const Footer = () => {
                                     <p className="mt-2 text-sm text-red-500">{error}</p>
                                 )}
 
-                                <p className="max-w-82 w-full font-normal lg:text-base text-sm leading-156 text-cool-gray mt-3 mb-6.25">
+                                <p className="max-w-82 w-full font-normal lg:text-base text-sm leading-172 sm:leading-156 text-cool-gray mt-3 mb-6.25">
                                     Be The First One To Get Latest Updates And Stay Connected
                                 </p>
 
