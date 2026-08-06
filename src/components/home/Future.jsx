@@ -6,9 +6,9 @@ import Image from "next/image";
 const Future = () => {
   return (
     <section className="lg:px-4 bg-black -mt-0.5 ">
-      <div className="max-w-291.5 w-full mx-auto flex min-[1025px]:flex-row relative z-10 flex-col justify-between items-center lg:mt-[-150.25px] md:-mt-60 sm:-mt-70 -mt-37.5">
+      <div className="max-w-291.5 w-full mx-auto flex min-[1025px]:flex-row relative z-10 flex-col justify-between items-center lg:mt-[-150.25px] md:-mt-60 sm:-mt-70 -mt-14.5">
         <div className="sm:max-w-116.75 max-w-97.25 max-lg:px-4  w-full ">
-          <button className="py-1.5 px-4 rounded-[114.9px] mb-3.25 bg-white/6 border-border border hover:scale-105 transition-all duration-300 cursor-pointer text-white font-normal text-[14px] leading-121">
+          <button className="py-1.5 px-4 rounded-[114.9px] mb-3.25 bg-white/6 border-border border  text-white font-normal text-[14px] leading-121">
             What Is Waves of Innovation?
           </button>
           <Heading
