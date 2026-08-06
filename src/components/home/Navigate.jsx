@@ -30,7 +30,7 @@ const Navigate = () => {
           </div>
           <div className="sm:max-w-222 max-w-97.5 mx-auto flex flex-col justify-center items-center text-center ">
 
-            <button className="px-4 py-1.5 text-white border-border border hover:scale-105 transition-all duration-300 bg-white/6 rounded-[114.9px] cursor-pointer  mb-3.25">
+            <button className="px-4 py-1.5 text-white border-border border  bg-white/6 rounded-[114.9px] text-[14px]  mb-3.25">
               How It Works
             </button>
             <Heading children={"Ready to Navigate the Next Wave?"} vari={"sec"} />
