@@ -150,24 +150,24 @@ const Footer = () => {
 
                 <div className="w-full border border-dark-gray mb-5 sm:mb-8 mt-8 sm:mt-11 md:mt-15"></div>
 
-                <div className="w-full flex flex-wrap flex-row items-center justify-between mb-4 sm:mb-[22.12px] max-[785px]:justify-center">
-                    <span className="font-normal text-xs min-[550px]:text-base leading-141 tracking-[-1%] text-white">© 2024-{new Date().getFullYear()} re:cinq. All Rights Reserved.</span>
+                <div className="w-full flex flex-wrap flex-row items-center gap-2.5 sm:justify-between mb-4 sm:mb-[22.12px] max-[785px]:justify-center">
+                    <span className="font-normal text-xs min-[550px]:text-base leading-166 sm:leading-141 tracking-[-1%] text-white">© 2024-{new Date().getFullYear()} re:cinq. All Rights Reserved.</span>
                     <ul className="flex items-center gap-1 sm:gap-3 ">
                         <li>
-                            <Link href="#" className="hover:text-spanish-gray transition-colors font-normal text-xs min-[550px]:text-base leading-141 tracking-[-1%] text-white">
-                                <p className="leading-144"> Partner & Referral Program</p>
+                            <Link href="#" className="hover:text-spanish-gray transition-colors font-normal text-xs min-[550px]:text-base  tracking-[-1%] text-white">
+                                <p className="leading-166 sm:leading-144"> Partner & Referral Program</p>
                             </Link>
                         </li>
-                        <li className="text-spanish-gray">•</li>
-                        <li>
-                            <Link href="#" className="hover:text-spanish-gray transition-colors font-normal text-xs min-[550px]:text-base leading-141 tracking-[-1%] text-white">
-                                <p className="leading-144"> Privacy Policy</p>
-                            </Link>
-                        </li>
-                        <li className="text-spanish-gray">•</li>
+                        <li className="text-spanish-gray max-sm:leading-100">•</li>
                         <li>
                             <Link href="#" className="hover:text-spanish-gray transition-colors font-normal text-xs min-[550px]:text-base  tracking-[-1%] text-white">
-                                <p className="leading-144">Terms & Conditions</p>
+                                <p className="leading-166 sm:leading-144"> Privacy Policy</p>
+                            </Link>
+                        </li>
+                        <li className="text-spanish-gray max-sm:leading-100">•</li>
+                        <li>
+                            <Link href="#" className="hover:text-spanish-gray transition-colors font-normal text-xs min-[550px]:text-base   tracking-[-1%] text-white">
+                                <p className="leading-166 sm:leading-144">Terms & Conditions</p>
                             </Link>
                         </li>
                     </ul>
