@@ -30,14 +30,15 @@ const Future = () => {
             />
           </div>
         </div>
-        <div className="max-[1025px]:mt-17.5 max-sm:mt-15">
-          <Image
-            src={"/assets/webg/futurebg.webp"}
-            height={480}
-            width={600}
-            className="object-cover object-center max-lg:h-auto "
-          />
-          <Image  />
+        <div className="max-[1025px]:mt-17.5 max-sm:mt-15 relative">
+          <div className="bg-[url-('/assets/webp/futurebg.webp')] bg-cover bg-center  bg-no-repeat z-10 w-150 h-120 relative ">
+            <Image
+              src={"/assets/webp/futureearth.webp"}
+              width={160.52}
+              height={160.52}
+              className=" absolute top-[50%] left-[50%]"
+            />
+          </div>
         </div>
       </div>
     </section>

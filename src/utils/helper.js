@@ -58,32 +58,32 @@ export const CRAD_DATA = [
 export const LOGOS_DATA = [
 
   {
-    src: "/assets/webg/larsen.webp",
+    src: "/assets/webp/larsen.webp",
     imgWidth: 218,
     imgHeight: 78,
   },
   {
-    src: "/assets/webg/seabo.webp",
+    src: "/assets/webp/seabo.webp",
     imgWidth: 78,
     imgHeight: 78,
   },
   {
-    src: "/assets/webg/vandebron.webp",
+    src: "/assets/webp/vandebron.webp",
     imgWidth: 135,
     imgHeight: 73.81,
   },
   {
-    src: "/assets/webg/skanda_4x.webp",
+    src: "/assets/webp/skanda_4x.webp",
     imgWidth: 200,
     imgHeight: 52.73,
   },
   {
-    src: "/assets/webg/fonix.webp",
+    src: "/assets/webp/fonix.webp",
     imgWidth: 200,
     imgHeight: 57.7,
   },
   {
-    src: "/assets/webg/odevo.webp",
+    src: "/assets/webp/odevo.webp",
     imgWidth: 200,
     imgHeight: 48.53,
   },

@@ -29,7 +29,7 @@ const Community = () => {
           </div>
           <div className="flex w-full items-center min-[1025]:flex-row flex-col max-xl:justify-between  xl:gap-21 gap-2">
             <Image
-              src={"/assets/webg/cloude.webp"}
+              src={"/assets/webp/cloude.webp"}
               width={575}
               height={539}
               alt="books"
