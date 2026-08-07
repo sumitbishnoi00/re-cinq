@@ -25,8 +25,10 @@ const Future = () => {
             <Para children={"Each Wave captures patterns, disruptions, and opportunities—giving you the clarity needed to plan, adapt, and make informed decisions in an environment that never stops moving."} vari={"sec"}/>
           </div>
         </div>
-        <div className="max-[1025px]:mt-17.5 max-sm:mt-15">
-          <Image src={"/assets/webp/hub.webp"} height={480} width={600} className="object-cover object-center max-lg:h-auto " />
+        <div className="relative max-[1025px]:mt-17.5 max-sm:mt-15">
+          <Image src={"/assets/webp/futurebg.webp"} height={480} width={600} className="object-cover object-center max-lg:h-auto " />
+          <Image src={"/assets/webp/earth.webp"} width={160.52} height={160.52} className=" absolute top-40 right-55" />
+          
         </div>
       </div>
     </section>
