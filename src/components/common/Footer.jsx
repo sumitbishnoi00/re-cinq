@@ -72,11 +72,11 @@ const Footer = () => {
 
         <section className='px-4 pt-15 sm:pt-17.5 md:pt-20 bg-black -mt-px'>
             <div className='max-w-7xl w-full mx-auto flex flex-col items-center'>
-                <div className='flex min-[743px]:gap-6 max-lg:flex-col max-[956px]:pr-20 max-[850px]:pr-0 flex-row w-full justify-between'>
+                <div className='flex gap-6 max-lg:flex-col max-[956px]:pr-20 max-[850px]:pr-0 flex-row w-full justify-between'>
                     <div className='max-w-85.5 w-full flex flex-col gap-6.25'>
                         <Link href="/" className="flex items-center">
                             <Image
-                                src="/assets/webg/Footer-logo.webp"
+                                src="/assets/webp/Footer-logo.webp"
                                 alt="Company Logo"
                                 width={148.57}
                                 height={40}
@@ -87,8 +87,8 @@ const Footer = () => {
                         <p className='font-normal text-sm sm:text-base leading-172 sm:leading-156 text-cool-gray'>re:cinq is a tech consultancy helping medium and large organizations transition from Cloud Native to AI Native by building scalable AI platforms, improving software development with AI, and guiding teams through technical and organizational transformation.</p>
                     </div>
 
-                    <div className="max-w-209 w-full flex min-[1060px]:gap-25.5 justify-between gap-8 flex-col sm:flex-row ">
-                        <div className='max-w-94 mt-10 min-[758px]:mt-0 w-full'>
+                    <div className="max-w-209 w-full flex min-[1060px]:gap-25.5 justify-between gap-8 max-sm:mt-4 flex-col sm:flex-row ">
+                        <div className='max-w-94 min-[758px]:mt-0 w-full'>
                             <div className="flex min-[1060px]:gap-25.5 flex-row justify-between">
                                 {FOOTER_LINKS.map((section, index) => (
                                     <div key={index} className="gap-5 flex flex-col items-start">
@@ -111,7 +111,7 @@ const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="max-w-89.5 w-full flex min-[758px]:mt-0 mt-4 sm:mt-10 flex-col text-start">
+                        <div className="max-w-89.5 w-full flex min-[758px]:mt-0 max-sm:mt-4 flex-col text-start">
                             <h2 className="font-medium text-xl leading-120 text-white mb-5">
                                 Newsletter
                             </h2>

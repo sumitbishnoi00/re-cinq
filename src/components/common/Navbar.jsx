@@ -91,7 +91,7 @@ const Navbar = () => {
                     )}
                   </div>
                   {index === 1 && (
-                    <div className={`absolute backdrop-blur-xl gap-3  left-0 z-20 top-full -ml-25.5 pt-3 px-5.5 h-46 w-51.75 flex-col bg-[url('/assets/webg/navbg.webp')] bg-cover bg-center bg-no-repeat ${servicesOpen ? "flex" : "hidden"}`}>
+                    <div className={`absolute backdrop-blur-xl gap-3  left-0 z-20 top-full -ml-25.5 pt-3 px-5.5 h-46 w-51.75 flex-col bg-[url('/assets/webp/navbg.webp')] bg-cover bg-center bg-no-repeat ${servicesOpen ? "flex" : "hidden"}`}>
                       {SERVICES_DROPDOWN.map((dropdownItem, i) => (
                         <div key={i} className={`${i === 3 ? "" : "border-b border-dark-grey"} pb-2`}>
                           <Link
@@ -131,7 +131,7 @@ const Navbar = () => {
                   <Icons icon="downarrow" />
                 </span>
               </div>
-              <div className={`absolute z-60 left-0 -ml-8  duration-500 px-5.5 flex-col top-full h-57 pt-2 bg-[url('/assets/webg/navbg.webp')] backdrop-blur-3xl bg-cover bg-no-repeat bg-center text-white w-64 ${innovationOpen ? "flex" : "hidden"}`}>
+              <div className={`absolute z-60 left-0 -ml-8  duration-500 px-5.5 flex-col top-full h-57 pt-2 bg-[url('/assets/webp/navbg.webp')] backdrop-blur-3xl bg-cover bg-no-repeat bg-center text-white w-64 ${innovationOpen ? "flex" : "hidden"}`}>
                 {INOVARTION_DROPDOWN.map((item, index) => {
                   return (
                     <div key={index}
@@ -160,7 +160,7 @@ const Navbar = () => {
           aria-label="Open menu"
           aria-expanded={isMobileOpen}
           onClick={() => setIsMobileOpen(true)}
-          className=" bg-[url('/assets/webg/hamclose.webp')] bg-center bg-no-repeat bg-cover flex lg:hidden items-center justify-center w-11 h-13 -mt-2 pt-2 shrink-0"
+          className=" bg-[url('/assets/webp/hamclose.webp')] bg-center bg-no-repeat bg-cover flex lg:hidden items-center justify-center w-11 h-13 -mt-2 pt-2 shrink-0"
         >
           <span className='relative w-5 h-3.5 flex flex-col justify-between'>
             <span className='block h-[1.5px] w-full bg-white rounded-full' />
@@ -188,7 +188,7 @@ const Navbar = () => {
               type="button"
               aria-label="Close menu"
               onClick={closeMobile}
-              className="w-11 h-13 flex pt-2 items-center justify-center bg-[url('/assets/webg/hamclose.webp')] bg-center bg-no-repeat bg-cover"
+              className="w-11 h-13 flex pt-2 items-center justify-center bg-[url('/assets/webp/hamclose.webp')] bg-center bg-no-repeat bg-cover"
             >
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M1 1L13 13M13 1L1 13" stroke="white" strokeWidth="1.5" strokeLinecap="round" />

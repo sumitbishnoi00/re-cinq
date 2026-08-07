@@ -26,7 +26,7 @@ const Future = () => {
           </div>
         </div>
         <div className="max-[1025px]:mt-17.5 max-sm:mt-15">
-          <Image src={"/assets/webg/hub.webp"} height={480} width={600} className="object-cover object-center max-lg:h-auto " />
+          <Image src={"/assets/webp/hub.webp"} height={480} width={600} className="object-cover object-center max-lg:h-auto " />
         </div>
       </div>
     </section>

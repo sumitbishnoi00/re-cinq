@@ -19,7 +19,7 @@ const Writers = () => {
                 className="w-[114.71px] xl:h-[128.34px] h-auto "
                 width={114.71}
                 height={128.34}
-                src="/assets/webg/writerfirst.webp"
+                src="/assets/webp/writerfirst.webp"
                 alt="Pini Reznik"
               />
               <h2 className="text-base font-normal text-white opacity-80 mt-2.5 leading-156 ">
@@ -31,7 +31,7 @@ const Writers = () => {
                 className="w-[114.71px] h-[128.34px]"
                 width={114.71}
                 height={128.34}
-                src="/assets/webg/writersecond.webp"
+                src="/assets/webp/writersecond.webp"
                 alt="Michael Müller"
               />
               <h2 className="text-base font-normal text-white opacity-80  mt-2.5 leading-156">
