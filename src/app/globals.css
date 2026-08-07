@@ -35,6 +35,7 @@
 
 
   --leading-100: 100%;
+  --leading-106: 106%;
   --leading-113: 113%;
   --leading-135: 135%;
   --leading-145: 145%;
@@ -258,4 +259,98 @@ html {
     transform: translateX(8px);
     opacity: 1;
   }
+}
+
+@keyframes spinEarth {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-earth {
+  animation: spinEarth 60s linear infinite;
+}
+
+
+@keyframes floatTop {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-10px) scale(1.05);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+.btn-top {
+  animation: floatTop 3s ease-in-out infinite;
+}
+
+@keyframes floatRight {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  50% {
+    transform: translateX(10px) scale(1.04);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
+.btn-right {
+  animation: floatRight 3s ease-in-out infinite;
+}
+
+@keyframes floatLeft {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  50% {
+    transform: translateX(-10px) scale(1.04);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
+.btn-left {
+  animation: floatLeft 3s ease-in-out infinite;
+}
+
+@keyframes floatBottom {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(10px) scale(1.05);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+.btn-bottom {
+  animation: floatBottom 3s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgba(173, 91, 255, 0.25);
+  }
+  50% {
+    box-shadow: 0 0 28px rgba(173, 91, 255, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(173, 91, 255, 0.25);
+  }
+}
+
+.future-btn button {
+  animation: glow 3s ease-in-out infinite;
 }
