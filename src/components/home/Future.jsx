@@ -22,11 +22,22 @@ const Future = () => {
               }
               vari={"sec"}
             />
-            <Para children={"Each Wave captures patterns, disruptions, and opportunities—giving you the clarity needed to plan, adapt, and make informed decisions in an environment that never stops moving."} vari={"sec"}/>
+            <Para
+              children={
+                "Each Wave captures patterns, disruptions, and opportunities—giving you the clarity needed to plan, adapt, and make informed decisions in an environment that never stops moving."
+              }
+              vari={"sec"}
+            />
           </div>
         </div>
         <div className="max-[1025px]:mt-17.5 max-sm:mt-15">
-          <Image src={"/assets/webg/hub.webp"} height={480} width={600} className="object-cover object-center max-lg:h-auto " />
+          <Image
+            src={"/assets/webg/futurebg.webp"}
+            height={480}
+            width={600}
+            className="object-cover object-center max-lg:h-auto "
+          />
+          <Image  />
         </div>
       </div>
     </section>

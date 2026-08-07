@@ -2,7 +2,7 @@ import React from 'react'
 
 const Button = ({ children, vari, className = "" }) => {
   const variants = {
-    pri: "font-medium lg:w-50.25 md:w-48 sm:w-44 w-41.75 lg:h-12.75 md:h-12 sm:h-11.5 h-10.75  border border-transparent  hover:border-border flex items-center justify-center",
+    pri: "font-medium lg:w-50.25 md:w-48 sm:w-44 w-41.75 lg:h-12.75 border-norder md:h-12 sm:h-11.5 h-10.75  border border-transparent  hover:border-border flex items-center justify-center",
     sec: "font-medium lg:w-52.25 md:w-50.5 sm:w-48.5 w-47.25 lg:h-12.75 md:h-12 sm:h-11.5 h-10.75 border border-border flex items-center justify-center",
     dan: "font-medium w-93.25 h-13 border border-border flex items-center justify-center",
     out: "font-normal lg:py-4 md:py-3.75 sm:py-3.25 py-3  lg:px-8.25 md:px-7.5 sm:px-7 max-[400px]:px-4 px-6.25 whitespace-nowrap border border-border",
