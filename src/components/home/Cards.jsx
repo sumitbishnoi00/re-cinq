@@ -50,7 +50,7 @@ const Cards = () => {
                                         </div>
                                         <div className='w-7 absolute bg-transparent z-0 mt-4 ml-2 transition-all duration-500 ease-in-out group-hover:shadow-[20px_20px_64px_20px_#8E2EE0]'></div>
                                         <div>
-                                            <p className={`${index === 0 ? "mt-5" : "mt-9.5"} sm:ml-3 text-white text-2xl md:text-28 leading-120 tracking-[-2%]`}>{item.title}</p>
+                                            <p className='sm:ml-3 text-white text-2xl md:text-28 leading-120 tracking-[-2%] '>{item.title}</p>
                                             <p className='mt-4 max-sm:mr-6.25 sm:ml-3 text-white/70 max-w-[350.1px] text-sm md:text-base leading-164 sm:leading-144 font-normal mb-6.25'>{item.description}</p>
                                             <Button vari={"dan"} className='w-full py-3.5 max-[767.1px]:max-w-[341.1px]'>
                                                 {item.btn}
