@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className=" max-w-[1284.1px] sm:border lg:border-border sm:backdrop-blur-3xl  flex flex-row justify-between items-center p-1.5 sm:bg-white/6 rounded-[90px] w-full mx-auto ">
         <div className='lg:ml-3.5'>
           <Link href="/">
-            <Icons icon={'navlogo'} />
+            <Icons icon={'navlogo'} className={"max-sm:w-30 max-sm:h-[32.30px]"} />
           </Link>
         </div>
 

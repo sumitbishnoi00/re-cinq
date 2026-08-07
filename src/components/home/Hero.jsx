@@ -32,11 +32,11 @@ const Hero = () => {
               }
               vari={"pri"}
             />
+          </div>
             <div className="flex flex-row lg:gap-4 sm:gap-3.5 gap-3.25  justify-end sm:mt-[29.18px] mt-7">
               <Button vari={"pri"}>Explore the Book</Button>
               <Button vari={"sec"}>Explore the Patterns</Button>
             </div>
-          </div>
         </div>
       </div>
     </section>

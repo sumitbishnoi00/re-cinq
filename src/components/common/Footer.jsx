@@ -100,9 +100,14 @@ const Footer = () => {
                                             {section.links.map((link, idx) => (
                                                 <li
                                                     key={idx}
-                                                    className="font-normal lg:text-base w-fit text-sm leading-156 hover:underline transition-all duration-500 "
+                                                    className="font-normal lg:text-base w-fit text-sm leading-156"
                                                 >
-                                                    <Link href={"/"} ><p className="leading-156">{link}</p></Link>
+                                                    <Link href="/" className="group relative inline-block text-white/80 hover:bg-[linear-gradient(91.05deg,#8E2EE0_7.21%,#AF7EF4_86.3%)] hover:bg-clip-text hover:text-transparent transition-colors duration-300 leading-171 sm:leading-156">
+                                                        
+                                                            {link}
+                                                        
+                                                        <span className="absolute left-0 -bottom-0.75 h-0.5 w-full origin-left scale-x-0 bg-[linear-gradient(91.05deg,#8E2EE0_7.21%,#AF7EF4_86.3%)] transition-transform duration-500 group-hover:scale-x-100"></span>
+                                                    </Link>
                                                 </li>
                                             ))}
                                         </ul>
@@ -121,15 +126,15 @@ const Footer = () => {
                                     type="email"
                                     name="user_email"
                                     value={email}
-                                  
+
                                     onChange={(e) => {
                                         setEmail(e.target.value);
                                         if (error) setError("");
                                     }}
                                     placeholder="Enter your email"
                                     className={`border rounded-[9px] px-6 py-[14.5px] w-full font-normal text-base leading-156 outline-none bg-jet-black text-light-gray placeholder:text-light-gray ${error
-                                            ? "border-red-500"
-                                            : "border-dark-charcoal focus:border-primary"
+                                        ? "border-red-500"
+                                        : "border-dark-charcoal focus:border-primary"
                                         }`}
                                 />
                                 {error && (

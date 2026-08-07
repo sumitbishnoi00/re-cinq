@@ -44,7 +44,7 @@ const Community = () => {
                 </button>
                 <Heading vari={"pri"} >The Foundation  of <br className="sm:hidden"></br>  Our Community</Heading>
 
-                <div className="sm:mt-6.25 mt-5.5 " >
+                <div className="sm:mt-6.25 mt-5.5 max-sm:max-w-95 w-full" >
                   <Para vari={"sec"}> Our book is the intellectual core that unifies this entire community. It provides the foundational frameworks and shared language that connect our podcast insights, transformation patterns, and strategic assessments into a single, cohesive system for mastering the AI Native wave. We recommend every leader start here.</Para>
 
                 </div>
