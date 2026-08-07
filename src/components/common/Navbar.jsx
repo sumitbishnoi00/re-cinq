@@ -151,7 +151,7 @@ const Navbar = () => {
         <div className=' group relative rounded-[60px] bg-black/40 border border-border w-fit p-[0.5px] max-lg:hidden transition-all duration-500 overflow-hidden'>
           <span className="absolute inset-0 rounded-[60px] bg-white/10 opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
           <span className="absolute -left-20 top-0 h-full w-20 rotate-12 bg-white/20 blur-md transition-all duration-700 group-hover:left-[120%]"></span>
-          <button className=' relative z-10 rounded-[60px] py-2 px-4.75 w-full font-medium text-base leading-100 text-white cursor-pointer transition-all duration-300 group-hover:shadow-[inset_0_0_18px_rgba(255,255,255,0.18)]'>Take Our Free Online AI Assessment.</button>
+          <button className=' relative z-10 rounded-[60px] py-2.5 px-4 w-full font-medium text-base leading-102 text-white cursor-pointer transition-all duration-300 group-hover:shadow-[inset_0_0_18px_rgba(255,255,255,0.18)]'>Take Our Free Online AI Assessment.</button>
         </div>
 
 
