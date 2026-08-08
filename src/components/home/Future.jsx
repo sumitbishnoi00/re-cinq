@@ -7,15 +7,15 @@ const Future = () => {
   return (
     <section className="lg:px-4 bg-black -mt-0.5 ">
       <div className="max-w-291.5 w-full mx-auto flex min-[1025px]:flex-row relative z-10 flex-col justify-between items-center lg:mt-[-150.25px] md:-mt-60 sm:-mt-70 -mt-14.5">
-        <div className="sm:max-w-116.75 max-w-97.25 max-lg:px-4  w-full ">
-          <button className="py-1.5 px-4 rounded-[114.9px] mb-3.25 bg-white/6 border-border border  text-white font-normal text-[14px] leading-121">
+        <div className="sm:max-w-116.75 max-w-97.25 max-[415]:px-4   w-full ">
+          <button className="py-1.25 px-4 rounded-[114.9px] mb-3.25 bg-white/6 border-border border  text-white font-normal text-[14px] leading-121">
             What Is Waves of Innovation?
           </button>
           <Heading
             children={"Don't Predict the Future. Map It With Patterns."}
             vari={"pri"}
           />
-          <div className="flex flex-col gap-5 sm:mt-6.25 mt-5.75 ">
+          <div className="flex flex-col gap-5 sm:mt-6.25 mt-5.75 max-sm:max-w-95.75 w-full ">
             <Para
               children={
                 "Waves of Innovation is a living system of insights, rooted in historical evidence, built to help leaders understand how technology, human behavior, and organizational change evolve together."
@@ -30,15 +30,20 @@ const Future = () => {
             />
           </div>
         </div>
-        <div className="max-[1025px]:mt-17.5 max-sm:mt-15 relative">
-          <div className="bg-[url-('/assets/webp/futurebg.webp')] bg-cover bg-center  bg-no-repeat z-10 w-150 h-120 relative ">
-            <Image
-              src={"/assets/webp/futureearth.webp"}
-              width={160.52}
-              height={160.52}
-              className=" absolute top-[50%] left-[50%]"
-            />
-          </div>
+
+        <div className="relative max-[1025px]:mt-17.5 max-sm:mt-15">
+          <Image
+            src={"/assets/webp/futurebg.webp"}
+            height={480}
+            width={600}
+            className="object-cover object-center max-lg:h-auto "
+          />
+          <Image
+            src={"/assets/webp/earth.webp"}
+            width={160.52}
+            height={160.52}
+            className=" absolute top-40 right-55"
+          />
         </div>
       </div>
     </section>

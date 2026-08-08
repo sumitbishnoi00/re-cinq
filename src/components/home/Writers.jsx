@@ -42,7 +42,7 @@ const Writers = () => {
           <Heading vari={"pri"}>
             A Note From <br className="sm:hidden" /> The Writers
           </Heading>
-          <div className="text-center sm:mt-6.25 mt-6">
+          <div className="text-center sm:mt-6.25 mt-6   max-sm:max-w-91 w-full">
             <Para vari={"sec"}>
               “Having navigated the Cloud Native wave, the shift to AI Native
               feels familiar. We have seen firsthand the predictable patterns that

@@ -2,8 +2,8 @@ import React from 'react'
 
 const Button = ({ children, vari, className = "" }) => {
   const variants = {
-    pri: "font-medium lg:w-50.25 md:w-48 sm:w-44 w-41.75 lg:h-12.75 border-norder md:h-12 sm:h-11.5 h-10.75  border border-transparent  hover:border-border flex items-center justify-center",
-    sec: "font-medium lg:w-52.25 md:w-50.5 sm:w-48.5 w-47.25 lg:h-12.75 md:h-12 sm:h-11.5 h-10.75 border border-border flex items-center justify-center",
+    pri:  "font-medium lg:w-50.75 md:w-48 sm:w-44 w-42.75 lg:h-13.25 border-norder md:h-12 sm:h-11.5 h-11.25  border border-transparent  hover:border-border flex items-center justify-center",
+    sec:  "font-medium lg:w-52.75 md:w-50.5 sm:w-48.5 w-47.25 lg:h-13.25 md:h-12 sm:h-11.5 h-11.25 border border-border flex items-center justify-center",
     dan: "font-medium w-93.25 h-13 border border-border flex items-center justify-center",
     out: "font-normal lg:py-4 md:py-3.75 sm:py-3.25 py-3  lg:px-8.25 md:px-7.5 sm:px-7 max-[400px]:px-4 px-6.25 whitespace-nowrap border border-border",
     not: "font-medium sm:w-45.25 w-[156.43px] h-11.25 sm:h-13.5 border border-transparent flex items-center justify-center hover:border-border",
@@ -12,7 +12,7 @@ const Button = ({ children, vari, className = "" }) => {
   }
   return (
 
-    <button className={` group relative overflow-hidden text-base leading-100 text-white rounded-[114.9px] transition-all duration-500 cursor-pointer ${variants[vari]} ${className}`}>
+    <button className={` group relative overflow-hidden text-base leading-118 text-white rounded-[114.9px] transition-all duration-500 cursor-pointer ${variants[vari]} ${className}`}>
 
       <span
         className={`absolute inset-0 transition-opacity duration-500 ${vari === "pri" || vari === "not"

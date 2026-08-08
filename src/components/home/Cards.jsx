@@ -41,7 +41,7 @@ const Cards = () => {
                         return (
                             <div key={index}>
                                 <div className=' group relative'>
-                                    <div className="absolute inset-0 hidden group-hover:flex duration-500 rounded-[20px] overflow-hidden transition-all ease-in-out">
+                                    <div className="absolute hidden group-hover:flex duration-500 rounded-[20px] overflow-hidden transition-all ease-in-out">
                                         <Icons icon="elipsetwo" />
                                     </div>
                                     <div className='lg:w-[413.1px] w-[350.1px] min-[405px]:w-[389.1px] md:w-[350.1px] flex justify-between flex-col p-5 h-auto min-[405px]:h-[350.1px] md:h-[388.1px] rounded-[20px] bg-white/3 border border-white/12 transition-all duration-500 ease-in-out'>
